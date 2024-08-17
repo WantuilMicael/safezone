@@ -6,7 +6,20 @@
     display: flex;
 }
 
-.menu-item{
-    color: #000;
+.menu ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.menu li{
+    display: inline;
+    float: left;
+}
+
+.menu li a{
+    display: block;
+    padding: 8px;
     background-color: #ffff;
 }
