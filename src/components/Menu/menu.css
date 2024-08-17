@@ -1,0 +1,12 @@
+.menu{
+    position: absolute;
+    top: 20px;
+    right: 10%;
+    font-weight: bold;
+    display: flex;
+}
+
+.menu-item{
+    color: #000;
+    background-color: #ffff;
+}
