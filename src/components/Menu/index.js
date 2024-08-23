@@ -1,32 +1,29 @@
 import './menu.css';
+import { FaRegUser } from 'react-icons/fa';
 
 export default function Menu() {
   return (
-    <div className='menu'>
-      <div className='logo-menu'>
-        <img src='/Logo.png' />
-      </div>
-
-      <div className='menu-item'>
-        <ul>
+    <nav className='navbar'>
+      <div className='navbar-left'>
+        <img src='../logo.png' alt='Logo' className='navbar-logo' />
+        <ul className='nav-links'>
           <li>
-            <a href='default.asp'>Inicio</a>
+            <a href='#inicio'>Início</a>
           </li>
           <li>
-            <a href='news.asp'>Notícias</a>
+            <a href='#noticias'>Notícias</a>
           </li>
           <li>
-            <a href='contact.asp'>Quem somos</a>
+            <a href='#quemsomos'>Quem Somos</a>
           </li>
           <li>
-            <a href='about.asp'>Fale Conosco</a>
+            <a href='#faleconosco'>Fale Conosco</a>
           </li>
         </ul>
       </div>
-
-      <div>
-        <button className='entrar'>Entrar</button>
-      </div>
-    </div>
+      <button className='login-button'>
+        <FaRegUser className='user-icon' /> Entrar
+      </button>
+    </nav>
   );
 }

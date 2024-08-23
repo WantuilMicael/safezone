@@ -1,25 +1,69 @@
-.menu{
-    position: absolute;
-    top: 20px;
-    right: 10%;
-    font-weight: bold;
+.navbar {
     display: flex;
-}
-
-.menu ul{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-}
-
-.menu li{
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: white;
+    height: 80px; /* Ajuste a altura conforme necessário */
+    width: 100%;  /* Faz a barra ocupar toda a largura da página */
+    box-sizing: border-box; /* Garante que padding não ultrapasse a largura definida */
+    position: fixed; /* Fixa a barra no topo da página */
+    top: 0; /* Mantém a barra no topo */
+    left: 0;
+  }
+  
+  .navbar-left {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-logo {
+    height: 60px; /* A logo agora tem a mesma altura da navbar */
+    object-fit: contain; /* Ajusta a imagem para se adaptar à altura */
+    margin-right: 20px; /* Pequeno espaçamento entre a logo e os links */
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 10px; /* Espaçamento entre os links */
+    margin: 0; /* Remove margens padrão */
+    padding: 0; /* Remove padding padrão */
+  }
+  
+  .nav-links li {
     display: inline;
-    float: left;
-}
+  }
+  
+  .nav-links a {
+    color: #103964;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 8px 12px; /* Adiciona padding para dar espaço dentro do link */
+    border-radius: 10px; /* Adiciona o border-radius de 10px */
+    transition: background-color 0.3s ease; /* Transição suave para o hover */
+  }
+  
+  .nav-links a:hover {
+    text-decoration: none;
+    background-color: #8F1F1F; /* Cor de fundo ao passar o mouse */
+  }
+  
+  .login-button {
+    background-color: #103964;
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 10px;
+  }
+  
+  .login-button:hover {
+    background-color: #8F1F1F;
+  }
 
-.menu li a{
-    display: block;
-    padding: 8px;
-    background-color: #ffff;
-}
+  .user-icon {
+    margin-right: 8px; /* Espaçamento entre o ícone e o texto */
+  }
+
