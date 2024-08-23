@@ -1,3 +1,5 @@
+/* Configurações da parte de motivação */
+
 .content-section {
     padding: 120px 20px 20px 20px; /* Adiciona espaçamento acima para separar do navbar */
     max-width: 1200px; /* Define uma largura máxima para o texto */
@@ -5,8 +7,6 @@
     line-height: 1.6; /* Melhora a legibilidade do texto */
     color: #333; /* Cor do texto */ 
   }
-
-
   
   .content-section h2 {
     font-size: 20px; /* Tamanho do título */
@@ -18,6 +18,8 @@
     font-size: 15px; /* Tamanho do texto */
     margin-bottom: 15px; /* Espaçamento abaixo do parágrafo */
   }
+
+  /* Configurações da parte de mapa */
 
   .map-section {
     padding: 40px; /* Adiciona padding para a seção do mapa */
@@ -37,6 +39,7 @@
     font-size: 20px; /* Tamanho do título */
     color: black; /* Cor do título */
     margin-right: 20px; /* Espaçamento à direita do título */
+    margin-bottom: 5px;
   }
 
 
@@ -93,3 +96,64 @@
     border: 2px solid #8F1F1F;
     color: #fff;
   }
+
+/* Configurações da parte de noticias */
+
+.news-section {
+  position: relative;
+  padding: 60px 20px; /* Espaçamento interno */
+  max-width: 1200px; /* Largura máxima da seção */
+  margin: 0 auto; /* Centraliza a seção na página */
+  
+}
+
+.news-title {
+  font-size: 20px; /* Tamanho do título */
+  color: black; /* Cor do título */
+  margin-bottom: 20px; /* Espaçamento abaixo do título */
+  text-align: left; /* Alinhamento do título à esquerda */
+}
+
+.cards-container {
+  display: flex;
+  justify-content: space-between; /* Distribui os cards igualmente */
+  gap: 20px; /* Espaçamento entre os cards */
+}
+
+.news-card {
+  flex: 1; /* Faz os cards ocuparem o mesmo espaço */
+  max-width: 400px; /* Define uma largura máxima para os cards */
+  padding: 20px; /* Espaçamento interno do card */
+  background-color: #f8f9fa; /* Cor de fundo do card */
+  border: 2px solid #ddd; /* Borda do card */
+  border-radius: 10px; /* Borda arredondada */
+  text-align: center; /* Centraliza o conteúdo do card */
+}
+
+.card-title {
+  font-size: 20px; /* Tamanho do título do card */
+  margin-bottom: 15px; /* Espaçamento abaixo do título */
+  color: black; /* Cor do texto do título */
+}
+
+.card-image {
+  width: 100%; /* Faz a imagem ocupar toda a largura do card */
+  height: auto; /* Mantém a proporção da imagem */
+  margin-bottom: 15px; /* Espaçamento abaixo da imagem */
+  border-radius: 5px; /* Bordas arredondadas na imagem */
+}
+
+.card-button {
+  padding: 10px 15px; /* Espaçamento interno do botão */
+  font-size: 16px; /* Tamanho do texto do botão */
+  color: white; /* Cor do texto do botão */
+  background-color: #252525; /* Cor de fundo do botão */
+  border: none; /* Remove a borda padrão do botão */
+  border-radius: 5px; /* Borda arredondada do botão */
+  cursor: pointer; /* Muda o cursor para pointer ao passar sobre o botão */
+}
+
+.card-button:hover {
+  background-color: #103964; /* Cor de fundo do botão ao passar o mouse */
+}
+
