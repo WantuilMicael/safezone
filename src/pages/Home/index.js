@@ -2,6 +2,7 @@ import './home.css';
 
 import Menu from '../../components/Menu';
 import Rodape from '../../components/Rodape';
+import MapSection from '../../components/Map';
 
 export default function Home() {
   return (
@@ -17,39 +18,7 @@ export default function Home() {
         </p>
       </section>
 
-      <section className='map-section'>
-        <h2 className='map-title'>Mapa</h2>
-        <button className='register-button'>Registrar Ocorrência</button>
-        <img src='../mapa.png' alt='Mapa' className='map-image' />
-        <div className='tables-container'>
-          <div className='table'>
-            <div className='table-row'>
-              <div className='table-cell'>Total de registros</div>
-            </div>
-            <div className='table-row second-row'>
-              <div className='table-cell'>1.683</div>
-            </div>
-          </div>
-          <div className='table'>
-            <div className='table-row'>
-              <div className='table-cell'>
-                População do estado do Rio de Janeiro
-              </div>
-            </div>
-            <div className='table-row second-row'>
-              <div className='table-cell'>16.054.524</div>
-            </div>
-          </div>
-          <div className='table'>
-            <div className='table-row'>
-              <div className='table-cell'>Eventos por habitantes (%)</div>
-            </div>
-            <div className='table-row second-row'>
-              <div className='table-cell'>1,4%</div>
-            </div>
-          </div>
-        </div>
-      </section>
+      <MapSection />
 
       <section className='news-section'>
         <h2 className='news-title'>Notícias</h2>

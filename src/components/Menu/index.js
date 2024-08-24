@@ -1,5 +1,6 @@
 import './menu.css';
 import { FaRegUser } from 'react-icons/fa';
+import { Home } from 'react-router-dom';
 
 export default function Menu() {
   return (
