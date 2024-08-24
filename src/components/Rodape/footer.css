@@ -1,0 +1,63 @@
+.footer {
+    display: flex;
+    justify-content: space-between; /* Distribui as seções igualmente */
+    padding: 40px 20px; /* Espaçamento interno do rodapé */
+    background-color: #252525; /* Cor de fundo do rodapé */
+    color: white; /* Cor do texto */
+    position: relative; /* Para ajustar a posição das seções */
+    margin-top: 60px;
+  }
+  
+  .footer-section {
+    flex: 1; /* Faz as seções ocuparem o mesmo espaço */
+    margin: 0 20px; /* Espaçamento entre as seções */
+  }
+  
+  .right-section {
+    margin-left: auto; /* Move a seção "Links Úteis" totalmente para a direita */
+    text-align: right; /* Alinha o conteúdo à direita */
+  }
+  
+  .footer-title {
+    font-size: 20px; /* Tamanho do título */
+    margin-bottom: 20px; /* Espaçamento abaixo do título */
+    color: #fff; /* Cor do título */
+  }
+  
+  .footer-links {
+    list-style: none; /* Remove marcadores de lista */
+    padding: 0; /* Remove o padding padrão */
+  }
+  
+  .footer-links li {
+    margin-bottom: 10px; /* Espaçamento entre os itens */
+  }
+
+  .footer-links a {
+    font-size: 15px;
+    color: white; /* Cor dos links */
+    text-decoration: none; /* Remove o sublinhado */
+  }
+  
+  .footer-links a:hover {
+    color: #103964; /* Cor ao passar o mouse */
+  }
+  
+  .footer-text {
+    font-size: 10px; /* Tamanho do texto */
+    margin-bottom: 20px; /* Espaçamento abaixo do texto */
+    line-height: 1.6; /* Altura da linha para legibilidade */
+    text-align: center;
+  }
+  
+  .footer-divider {
+    border: none; /* Remove a borda padrão */
+    border-top: 1px solid #fff; /* Adiciona uma linha de divisão */
+    margin: 20px 0; /* Espaçamento acima e abaixo da linha */
+  }
+  
+  .footer-copyright {
+    font-size: 8px; /* Tamanho do texto de copyright */
+    text-align: center; /* Centraliza o texto */
+    margin-top: 10px; /* Espaçamento acima do texto */
+  }
