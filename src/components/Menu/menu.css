@@ -47,6 +47,7 @@
   .nav-links a:hover {
     text-decoration: none;
     background-color: #8F1F1F; /* Cor de fundo ao passar o mouse */
+    color: white;
   }
   
   .login-button {

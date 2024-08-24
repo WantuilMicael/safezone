@@ -50,7 +50,7 @@ const Footer = () => {
           </li>
           <li>
             <a
-              href='https://www.policiamilitar.rj.gov.br'
+              href='https://sepm.rj.gov.br'
               target='_blank'
               rel='noopener noreferrer'
             >
@@ -68,7 +68,7 @@ const Footer = () => {
           </li>
           <li>
             <a
-              href='https://www.gov.br/mdh/pt-br/assuntos/violencia-contra-as-mulheres/delegacia-da-mulher'
+              href='https://www.gov.br/mdh/pt-br/assuntos/denuncie-violencia-contra-a-mulher/violencia-contra-a-mulher'
               target='_blank'
               rel='noopener noreferrer'
             >

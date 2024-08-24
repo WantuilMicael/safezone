@@ -40,11 +40,12 @@
   }
   
   .footer-links a:hover {
-    color: #103964; /* Cor ao passar o mouse */
+    color: #8F1F1F; /* Cor ao passar o mouse */
   }
   
   .footer-text {
-    font-size: 10px; /* Tamanho do texto */
+    width: 600px;
+    font-size: 12px; /* Tamanho do texto */
     margin-bottom: 20px; /* Espaçamento abaixo do texto */
     line-height: 1.6; /* Altura da linha para legibilidade */
     text-align: center;
