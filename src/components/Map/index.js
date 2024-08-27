@@ -17,7 +17,7 @@ const MapSection = () => {
     <div className='map-section'>
       <h2 className='map-title'>Mapa</h2>
       <div className='map-button'>
-        <button>Registrar</button>
+        <button>Registrar Ocorrência</button>
       </div>
       <LoadScript googleMapsApiKey={process.env.REACT_APP_GOOGLE_MAPS_API_KEY}>
         <GoogleMap
