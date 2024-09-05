@@ -1,11 +1,13 @@
+
 .footer {
+    width: 100%; /* Garante que o rodapé ocupe toda a largura */
     display: flex;
     justify-content: space-between; /* Distribui as seções igualmente */
     padding: 40px 20px; /* Espaçamento interno do rodapé */
     background-color: #252525; /* Cor de fundo do rodapé */
     color: white; /* Cor do texto */
     position: relative; /* Para ajustar a posição das seções */
-    margin-top: 60px;
+    margin-top: auto; /* Mantém o rodapé na parte inferior da página */
   }
   
   .footer-section {

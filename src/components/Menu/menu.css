@@ -38,7 +38,7 @@
   .nav-links a {
     color: #103964;
     text-decoration: none;
-    font-size: 16px;
+    font-size: 20px;
     padding: 8px 12px; /* Adiciona padding para dar espaço dentro do link */
     border-radius: 10px; /* Adiciona o border-radius de 10px */
     transition: background-color 0.3s ease; /* Transição suave para o hover */

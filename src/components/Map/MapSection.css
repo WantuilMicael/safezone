@@ -4,6 +4,7 @@
     max-width: 1400px;
     display: flex;
     flex-direction: column; /* Organiza os elementos na coluna */
+    margin: 0 auto;
   }
   
   .map-title {
