@@ -1,6 +1,6 @@
 import './menu.css';
 import { FaRegUser } from 'react-icons/fa';
-import { Home } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 export default function Menu() {
   return (
@@ -9,10 +9,10 @@ export default function Menu() {
         <img src='../logo.png' alt='Logo' className='navbar-logo' />
         <ul className='nav-links'>
           <li>
-            <a href='#inicio'>Início</a>
+            <Link to='/'>Início</Link>
           </li>
           <li>
-            <a href='#noticias'>Notícias</a>
+            <Link to='/noticias'>Notícias</Link>
           </li>
           <li>
             <a href='#quemsomos'>Quem Somos</a>
