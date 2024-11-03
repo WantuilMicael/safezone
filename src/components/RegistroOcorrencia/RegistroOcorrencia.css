@@ -23,11 +23,14 @@
 }
 
 .close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
     background-color: transparent; /* Fundo transparente */
     border: none; /* Remove a borda */
     cursor: pointer; /* Muda o cursor para indicar que é clicável */
-    padding: 0; /* Remove o padding */
-    margin: 0; /* Remove a margem */
+    font-size: 24px; /* Tamanho do ícone */
+    color: white; /* Altera a cor do ícone para branco */
     transition: transform 0.2s; /* Adiciona uma animação de transformação */
 }
 
@@ -38,14 +41,6 @@
 .popup-title {
     margin-bottom: 20px; /* Adiciona espaço inferior de 20px */
     color: white; /* Opcional: certifique-se de que a cor do texto seja visível */
-}
-
-.close-button {
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    color: #8F1F1F; /* Define a cor vermelha */
-    font-size: 24px; /* Tamanho do ícone */
 }
 
 .input-row, .input-row-triple {
@@ -83,6 +78,28 @@
     width: 100%; /* Faz o campo ocupar toda a largura do seu container */
 }
 
+/* Ajustes para o campo Endereço */
+.address-input {
+    margin-left: 10px; /* Espaço à esquerda do campo Endereço */
+    flex: 2; /* Faz o campo de Endereço ocupar mais espaço relativo */
+}
+
+/* Garantindo que os campos Bairro, Município e Estado estejam na mesma linha */
+.input-row-triple .input-group {
+    flex: 1; /* Faz com que todos os inputs na linha ocupem a mesma largura */
+}
+
+.input-row-triple .input-group input {
+    max-width: 100%; /* Permite que os campos usem 100% do espaço disponível */
+}
+
+/* Estilo específico para a textarea da descrição da ocorrência */
+.popup-content textarea {
+    resize: vertical; /* Permite o redimensionamento apenas na vertical */
+    overflow: auto; /* Adiciona barras de rolagem se o conteúdo exceder o tamanho */
+    min-height: 100px; /* Altura mínima para a caixa de texto */
+}
+
 /* Estilo do select */
 .popup-content select {
     background-color: #103964; /* Cor de fundo do select */
@@ -110,30 +127,6 @@
     opacity: 1; /* Para garantir que a cor do placeholder seja aplicada */
 }
 
-  
-
-/* Ajustes para o campo Endereço */
-.address-input {
-    margin-left: 10px; /* Espaço à esquerda do campo Endereço */
-    flex: 2; /* Faz o campo de Endereço ocupar mais espaço relativo */
-}
-
-/* Garantindo que os campos Bairro, Município e Estado estejam na mesma linha */
-.input-row-triple .input-group {
-    flex: 1; /* Faz com que todos os inputs na linha ocupem a mesma largura */
-}
-
-.input-row-triple .input-group input {
-    max-width: 100%; /* Permite que os campos usem 100% do espaço disponível */
-}
-
-/* Estilo específico para a textarea da descrição da ocorrência */
-.popup-content textarea {
-    resize: vertical; /* Permite o redimensionamento apenas na vertical */
-    overflow: auto; /* Adiciona barras de rolagem se o conteúdo exceder o tamanho */
-    min-height: 100px; /* Altura mínima para a caixa de texto */
-}
-
 .register-button {
     padding: 10px;
     background-color: #8F1F1F;
@@ -143,5 +136,3 @@
     width: 100px;
     border-radius: 10px;
 }
-
-  
