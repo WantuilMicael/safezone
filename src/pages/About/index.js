@@ -8,9 +8,13 @@ export default function Home() {
     <div className='container-home'>
       <Menu />
 
+      {/* Título Quem Somos acima da seção */}
+      <div className='quem-somos-titulo'>
+        <h1>Quem Somos</h1>
+      </div>
+
       {/* Seção Quem Somos */}
       <div className='quem-somos'>
-        <h1>Quem Somos</h1>
         <p>
           Somos pessoas preocupadas com o crescimento e desenvolvimento da
           sociedade. Queremos entender este fenômeno social e como nossa
