@@ -124,8 +124,8 @@
   flex: 1; /* Faz os cards ocuparem o mesmo espaço */
   max-width: 400px; /* Define uma largura máxima para os cards */
   padding: 20px; /* Espaçamento interno do card */
-  background-color: #f8f9fa; /* Cor de fundo do card */
-  border: 2px solid #ddd; /* Borda do card */
+  background-color: white; /* Cor de fundo do card */
+  border: 1px solid #ddd; /* Borda do card */
   border-radius: 10px; /* Borda arredondada */
   text-align: center; /* Centraliza o conteúdo do card */
 }
