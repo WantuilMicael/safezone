@@ -1,0 +1,43 @@
+.container-home {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.quem-somos {
+    padding: 40px 20px;
+    margin-top: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 1400px;
+    margin-left: 20px; /* Alinha a seção à esquerda */
+    margin-right: 20px; /* Adiciona margem à direita */
+    margin-top: 100px; /* Para evitar sobreposição da navbar */
+    margin-bottom: 50px;
+}
+
+.quem-somos h1 {
+    font-size: 20px;
+    color: black;
+    text-align: left; /* Alinha o título à esquerda */
+    margin-bottom: 20px;
+}
+
+.quem-somos p {
+    font-size: 15px;
+    color: black;
+    line-height: 1.6;
+    text-align: left; /* Alinha o texto à esquerda */
+}
+
+/* Estilo para a imagem abaixo do texto */
+.quem-somos-img {
+    width: 100%; /* A largura será ajustada automaticamente para manter a proporção */
+    height: 300px; /* Define a altura desejada */
+    object-fit: cover; /* Se a imagem não for exatamente proporcional à área disponível, isso pode ajudar a ajustar */
+    border-radius: 8px; /* Mantém as bordas arredondadas */
+    margin-top: 20px; /* Espaçamento entre o texto e a imagem */
+    max-width: 100%; /* Evita que a imagem ultrapasse a largura da seção */
+}
