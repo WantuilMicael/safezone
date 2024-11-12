@@ -1,25 +1,58 @@
 .noticias-page {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-  }
-  
-  .noticias-content {
-    flex: 1;
-    padding: 40px;
-    background-color: #f9f9f9;
-  }
-  
-  .noticia {
-    margin-bottom: 20px;
-  }
-  
-  .noticia h2 {
-    font-size: 24px;
-    color: #333;
-  }
-  
-  .noticia p {
-    font-size: 16px;
-    color: #666;
-  }
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  align-items: center;
+}
+
+.noticias-content {
+  padding: 20px;
+  margin-top: 100px; /* Para evitar sobreposição da navbar */
+  margin-left: 20px; /* Ajuste para alinhar o conteúdo à esquerda */
+}
+
+.noticias-content h1 {
+  text-align: left; /* Alinha o título à esquerda */
+  font-size: 20px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.noticia-card {
+  display: flex;
+  align-items: flex-start; /* Alinha o conteúdo do card no topo */
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 90%; /* Ajusta a largura dos cards */
+  max-width: 1400px;
+}
+
+.noticia-card img {
+  width: 300px; /* Define a largura fixa da imagem */
+  height: 200px; /* Define a altura fixa da imagem */
+  border-radius: 8px;
+  margin-right: 20px; /* Espaçamento entre a imagem e o texto */
+  object-fit: cover;
+}
+
+.noticia-card-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.noticia-card-content h2 {
+  margin-top: 0;
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.noticia-card-content p {
+  margin: 10px; /* Remove a margem para ajustar melhor o layout */
+  font-size: 1rem;
+  color: #666;
+}
