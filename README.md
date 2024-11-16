@@ -1,70 +1,66 @@
-# Getting Started with Create React App
+# Registro de Manchas Criminais
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este é um projeto desenvolvido em React com o objetivo de registrar e visualizar manchas criminais em uma interface interativa e fácil de usar. O projeto foi criado como parte da iniciação científica da **Faculdade Candido Mendes**.
 
-## Available Scripts
+![Imagem do Dash]
 
-In the project directory, you can run:
+## Tecnologias Utilizadas
 
-### `yarn start`
+- **React**: Biblioteca JavaScript para construção da interface do usuário.
+- **Yarn**: Gerenciador de pacotes para instalação e gerenciamento de dependências.
+- **HTML5 e CSS3**: Para estrutura e estilização da página.
+- **API Google Maps**: Para o mapa, foi utiliza a API do Google Maps
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Funcionalidades
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Registro de manchas criminais por região.
+- Visualização de manchas criminais registradas.
+- Interatividade para explorar dados de forma eficiente.
+- Pagina de noticias
+- Pagina para contatos
 
-### `yarn test`
+## Pré-requisitos
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Antes de começar, certifique-se de ter as seguintes ferramentas instaladas:
 
-### `yarn build`
+- [Node.js](https://nodejs.org/) (versão recomendada: 18+)
+- [Yarn](https://yarnpkg.com/)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Como Rodar o Projeto
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. Crie o arquivo para utilizar a API
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+    crie o arquivo .env.local para utilizar a API do Google Maps
 
-### `yarn eject`
+2. Clone este repositório:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+    bash git clone https://github.com/seu-usuario/nome-do-repositorio.git
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+3. Acesse o diretório do projeto:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+    cd nome-do-repositorio
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+4. Instale as dependências:
 
-## Learn More
+    yarn install
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+5. Inicie o servidor de desenvolvimento:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+    yarn start
 
-### Code Splitting
+6. Abra o navegador e acesse:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+   http://localhost:3000
 
-### Analyzing the Bundle Size
+## Estrutura do Projeto
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+├── src
+│   ├── components   # Componentes reutilizáveis
+│   ├── pages        # Páginas principais do site
+│   ├── services     # Serviços para integração com APIs
+│   ├── assets       # Imagens, ícones e outros recursos estáticos
+│   ├── App.js       # Componente principal
+│   └── index.js     # Ponto de entrada da aplicação
+├── public           # Arquivos públicos
+├── package.json     # Configuração do projeto e dependências
+└── README.md        # Documentação do projeto
