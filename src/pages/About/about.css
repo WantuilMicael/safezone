@@ -2,23 +2,23 @@
     font-family: Arial, sans-serif;
     display: flex;
     flex-direction: column;
-    min-height: 100vh;
-    
+    min-height: 80vh;
+    align-items: center; /* Centraliza horizontalmente o container principal */
+    justify-content: center; /* Opcional: pode centralizar verticalmente */
 }
 
 .quem-somos-titulo {
-    padding: 20px;
-    margin-top: 100px; /* Ajuste conforme necessário */
+    
+    margin-top: 120px; /* Ajuste conforme necessário */
     text-align: left; /* Alinha o título à esquerda */
-    max-width: 1200px;
-    margin-left: 0px; /* Alinha o título à esquerda */
-    margin-right: 20px; /* Adiciona margem à direita */
+    max-width: 1200px; /* Define a largura máxima do título */
+    width: 100%; /* Garante que o título ocupe toda a largura */
 }
 
 .quem-somos-titulo h1 {
     font-size: 20px;
     color: black;
-    margin-bottom: 0px;
+    margin-bottom: 20px;
 }
 
 .quem-somos {
@@ -26,26 +26,22 @@
     background-color: white;
     border-radius: 8px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    max-width: 1200px;
-    margin-left: 20px; /* Alinha a seção à esquerda */
-    margin-right: 20px; /* Adiciona margem à direita */
-    margin-top: 10px; /* Menor margem superior agora que o título está separado */
+    max-width: 1200px; /* Define uma largura máxima para a seção */
+    text-align: left; /* Centraliza o conteúdo dentro da seção */
+    margin-top: 10px;
     margin-bottom: 50px;
 }
 
 .quem-somos p {
-    font-size: 15px;
+    font-size: 16px;
     color: black;
-    line-height: 1.6;
-    text-align: left; /* Alinha o texto à esquerda */
+    line-height: 1.8;
+    margin-bottom: 30px; /* Espaçamento entre o texto e a imagem */
 }
 
-/* Estilo para a imagem abaixo do texto */
 .quem-somos-img {
-    width: 100%; /* A largura será ajustada automaticamente para manter a proporção */
-    height: 300px; /* Define a altura desejada */
-    object-fit: cover; /* Se a imagem não for exatamente proporcional à área disponível, isso pode ajudar a ajustar */
-    border-radius: 8px; /* Mantém as bordas arredondadas */
-    margin-top: 30px; /* Espaçamento entre o texto e a imagem */
-    max-width: 100%; /* Evita que a imagem ultrapasse a largura da seção */
+    width: 100%; /* A largura será ajustada automaticamente */
+    height: 300px; /* Mantém a proporção da imagem */
+    object-fit: cover; /* Ajusta a imagem para caber no espaço */
+    border-radius: 8px; /* Bordas arredondadas */
 }
