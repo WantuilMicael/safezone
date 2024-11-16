@@ -2,7 +2,7 @@
 
 Este é um projeto desenvolvido em React com o objetivo de registrar e visualizar manchas criminais em uma interface interativa e fácil de usar. O projeto foi criado como parte da iniciação científica da **Faculdade Candido Mendes**.
 
-![Imagem do Dash] ([public/safezone.png](https://raw.githubusercontent.com/WantuilMicael/safezone/refs/heads/master/public/safezone.png))
+![Imagem do Dash](https://raw.githubusercontent.com/WantuilMicael/safezone/refs/heads/master/public/safezone.png)
 
 ## Tecnologias Utilizadas
 
