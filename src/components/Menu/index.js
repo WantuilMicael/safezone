@@ -28,7 +28,7 @@ const Menu = () => {
             <Link to='/quemsomos'>Quem Somos</Link>
           </li>
           <li>
-            <a href='#faleconosco'>Fale Conosco</a>
+            <Link to='/faleconosco'>Fale Conosco</Link>
           </li>
         </ul>
       </div>
