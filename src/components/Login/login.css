@@ -97,7 +97,21 @@
   font-size: 20px;
 }
 
+.register-submit:hover{
+  background-color: white;
+  color: #103964;
+}
+
+.login-submit:hover{
+  background-color: white;
+  color: #103964;
+}
+
 .forgot-password-link {
   color: white;
   text-decoration: none;
+}
+
+.forgot-password-link:hover{
+  color: #8F1F1F;
 }

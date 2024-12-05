@@ -16,7 +16,7 @@ const RegistroOcorrencia = ({ onClose }) => {
     <div className='popup-overlay'>
       <div className='popup'>
         <button className='close-button' onClick={onClose}>
-          <IoIosCloseCircle size={24} /> {/* Ícone na cor vermelha */}
+          <IoIosCloseCircle size={30} />
         </button>
         <h2 className='popup-title'>Registro de Ocorrência</h2>
 

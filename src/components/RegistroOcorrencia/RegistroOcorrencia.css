@@ -136,3 +136,8 @@
     width: 100px;
     border-radius: 10px;
 }
+
+.register-button:hover{
+    background-color: white;
+    color: #103964;
+}
